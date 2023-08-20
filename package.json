@@ -15,7 +15,7 @@
   "dependencies": {
     "@fontsource-variable/inter": "^5.0.8",
     "@fontsource-variable/montserrat": "^5.0.9",
-    "@material-symbols/svg-400": "^0.10.4",
+    "@material-symbols/svg-400": "^0.11.0",
     "@tailwindcss/typography": "^0.5.9",
     "@vueuse/components": "^10.3.0",
     "@vueuse/core": "^10.3.0",
