@@ -1,0 +1,3 @@
+.modal-box {
+  @apply max-w-xl bg-base-200/95 text-black;
+}

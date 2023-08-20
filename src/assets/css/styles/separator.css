@@ -1,0 +1,21 @@
+.separator {
+  @apply flex flex-wrap;
+
+  li {
+    @apply inline-flex flex-wrap items-center;
+  }
+
+  li:after {
+    @apply px-1;
+    content: '|';
+  }
+
+  &.bullet > li:after {
+    content: '•';
+  }
+
+  li:last-child:after {
+    @apply px-0;
+    content: '';
+  }
+}

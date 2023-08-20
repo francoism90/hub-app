@@ -1,0 +1,11 @@
+/* Font */
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/montserrat';
+
+/* Vendor */
+@import '~/shaka-player/dist/controls';
+
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

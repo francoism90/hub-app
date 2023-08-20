@@ -1,0 +1,18 @@
+.btn {
+  @apply h-10 min-h-[2.25rem];
+
+  &-xs {
+    @apply min-h-6 h-6;
+  }
+
+  &-sm {
+    @apply min-h-8 h-8;
+  }
+
+  &-ghost {
+    &:hover,
+    &:focus {
+      @apply border-opacity-5 bg-opacity-75;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.navbar {
+  @apply min-h-12 relative z-50 h-12 overflow-hidden bg-black px-5;
+
+  &-logo {
+    @apply font-serif text-lg font-medium lowercase text-base-300;
+  }
+}
+
+.navbar-overlay {
+  @apply absolute inset-0 top-12 h-screen min-h-screen overflow-hidden overflow-y-auto bg-black/75 p-5 pb-12 backdrop-blur-2xl;
+}

@@ -1,0 +1,8 @@
+body,
+html {
+  @apply relative min-h-screen antialiased;
+}
+
+body::after {
+  @apply absolute inset-0 -z-10 block min-h-screen bg-primary bg-gradient-to-br from-primary/50 to-secondary/50 bg-fixed brightness-75 content-[""];
+}

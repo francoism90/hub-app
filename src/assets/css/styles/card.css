@@ -1,0 +1,5 @@
+.card-compact {
+  .card-title {
+    @apply m-0;
+  }
+}

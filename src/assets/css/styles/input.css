@@ -1,0 +1,7 @@
+.input {
+  @apply h-10 min-h-[2.5rem] text-sm font-medium;
+
+  &:focus {
+    @apply outline-0 outline-offset-0;
+  }
+}
